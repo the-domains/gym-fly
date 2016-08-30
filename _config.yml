@@ -1,14 +1,26 @@
-layout_spectrum: 0
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.2043011
 color:
-  saturation: 0.8440861
+  saturation: 1
   brandStrength: 0.6233538
-  lightness: 0.8657689
-  rhythmicContrast: 0.2221608
+  lightness: 0.2526882
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-typography_spectrum: 0.2043011
+  rhythmicContrast: 1
+layout_spectrum: 0
 name: Gym Fly
